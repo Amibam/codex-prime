@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Les outils utiles pour apprendre et créer avec Codex Prime.">
+    <title>Outils vibe coding</title>
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+        background: #101827;
+        color: #f1f5f9;
+        font-family: system-ui, sans-serif;
+      }
+      main {
+        width: 100%;
+        max-width: 680px;
+        padding: clamp(28px, 6vw, 56px);
+        border: 1px solid #334155;
+        border-radius: 24px;
+        background: #182235;
+      }
+      .label { color: #93c5fd; font-size: 0.85rem; letter-spacing: 0.12em; text-transform: uppercase; }
+      h1 { margin: 20px 0; font-size: clamp(2.5rem, 8vw, 4rem); line-height: 1.1; }
+      p { color: #cbd5e1; line-height: 1.7; }
+      ul { padding-left: 24px; }
+      li { margin: 24px 0; }
+      li p { margin: 8px 0; }
+      h2 { margin-top: 40px; font-size: 1.4rem; }
+      .access { font-size: 0.9rem; color: #94a3b8; }
+      a { overflow-wrap: anywhere; }
+      a { color: #93c5fd; text-underline-offset: 4px; }
+      a:hover { color: #bfdbfe; }
+      a:focus-visible { outline: 3px solid #f1f5f9; outline-offset: 5px; }
+      nav { margin-top: 32px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span class="label">Codex Prime</span>
+      <h1>Outils vibe coding</h1>
+      <p>54 outils et ressources pour créer avec l’IA, classés par usage.</p>
+      <p>Source : <a href="https://github.com/Scap-Mehdi/awesome-vibecoding">Awesome Vibe Coding</a> (CC0), consultée le 15 octobre 2026. Les descriptions et conditions d’accès proviennent de sa version française ; elles peuvent évoluer.</p>
+      <section>
+        <h2>Code et édition</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/Aider-AI/aider">Aider</a> · CLI
+            <p>Pair programming en terminal avec des modèles cloud ou locaux et une intégration Git</p>
+            <p class="access">Client open source. Coûts d&#x27;API ou de modèle local</p>
+          </li>
+          <li>
+            <a href="https://code.claude.com/docs/en/overview">Claude Code</a> · CLI
+            <p>Assistant de code agentique avec workflows en terminal et par projet</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/cline/cline">Cline</a>
+            <p>Agent de code pour IDE, terminal et desktop, avec outils fichiers, commandes et navigateur</p>
+            <p class="access">Client plus fournisseur de modèle. Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://www.cursor.com/">Cursor</a> · IDE
+            <p>Éditeur et agent de code pour l&#x27;implémentation, le débogage et la revue de code</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/google-gemini/gemini-cli">Gemini CLI</a> · CLI
+            <p>Agent de code open source en terminal avec accès par clé API, Vertex ou offre entreprise éligible. L&#x27;accès par abonnement grand public est retiré</p>
+            <p class="access">API/Vertex ou entreprise éligible. Pas de voie grand public</p>
+          </li>
+          <li>
+            <a href="https://github.com/features/copilot">GitHub Copilot</a>
+            <p>Assistance au code et workflows d&#x27;agents dans GitHub et les IDE compatibles</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/aaif-goose/goose">Goose</a> · CLI
+            <p>Agent local extensible avec workflows de code, interfaces desktop et CLI, et outils MCP</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://kiro.dev">Kiro</a> · IDE
+            <p>Agent de code AWS avec workflows IDE et CLI, spécifications et tests</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://openai.com/codex/">OpenAI Codex CLI</a> · CLI
+            <p>Agent de code OpenAI qui s&#x27;exécute localement dans le terminal</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/earendil-works/pi">Pi</a> · CLI
+            <p>Agent de code en terminal, extensible et intégrable comme harnais</p>
+            <p class="access">Client MIT. Conditions du modèle et du fournisseur séparées</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Prototypage d&#x27;applications et d&#x27;interfaces</h2>
+        <ul>
+          <li>
+            <a href="https://bolt.new/">Bolt.new</a> · Web
+            <p>Création d&#x27;applications en langage naturel, par StackBlitz</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/dyad-sh/dyad">Dyad</a> · Desktop
+            <p>Créer des applications en local avec des fournisseurs de modèles configurables</p>
+            <p class="access">Vérifier le prix. Application desktop locale, coûts du fournisseur de modèle</p>
+          </li>
+          <li>
+            <a href="https://lovable.dev/">Lovable</a> · Web
+            <p>Génération d&#x27;applications full-stack avec Supabase</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://www.onlook.com/">Onlook</a> · Web
+            <p>Modifier visuellement les interfaces d&#x27;une application tout en travaillant sur le code</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://replit.com/">Replit</a> · Web
+            <p>Créer et itérer sur des applications avec Replit Agent</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://v0.app/">v0</a> · Web
+            <p>L&#x27;IA de Vercel pour générer des UI et du React</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Contexte, spécifications et intégrations</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/caliber-ai-org/ai-setup">Caliber</a>
+            <p>CLI qui génère et synchronise les configurations d&#x27;agents IA pour Claude Code, Cursor et Codex</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/upstash/context7">Context7</a> · MCP
+            <p>Récupérer la documentation des bibliothèques comme contexte de code</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem">Filesystem MCP</a> · MCP
+            <p>Donner aux agents un accès contrôlé aux fichiers du projet</p>
+            <p class="access">Vérifier le prix. Implémentation de référence, sans garantie de production</p>
+          </li>
+          <li>
+            <a href="https://github.com/github/github-mcp-server">GitHub MCP</a> · MCP
+            <p>Connecter les workflows de dépôts, d&#x27;issues et de pull requests</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/neondatabase/mcp-server-neon">Neon</a> · MCP
+            <p>Connecter les workflows de développement aux bases de données Neon</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://developers.notion.com/guides/mcp/overview">Notion MCP</a> · MCP
+            <p>MCP officiel hébergé pour chercher, lire et mettre à jour du contenu Notion</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/Fission-AI/OpenSpec">OpenSpec</a>
+            <p>Cadre de développement piloté par les spécifications pour assistants de code IA</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/supabase/mcp">Supabase MCP</a> · MCP
+            <p>MCP officiel pour les schémas, requêtes et configurations de projet Supabase</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Tests, revue et sécurité</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/vostride/agent-qa">Agent QA</a> · MCP
+            <p>Écrire et exécuter des tests web et mobile en langage naturel</p>
+            <p class="access">FSL-1.1-ALv2. Source disponible avec restriction d&#x27;usage concurrent. Coûts de modèle</p>
+          </li>
+          <li>
+            <a href="https://github.com/microsoft/playwright-mcp">Playwright MCP (Microsoft)</a> · MCP
+            <p>Automatisation officielle du navigateur par instantanés structurés des pages</p>
+            <p class="access">Client Apache-2.0. Conditions du modèle séparées</p>
+          </li>
+          <li>
+            <a href="https://github.com/The-PR-Agent/pr-agent">PR-Agent</a>
+            <p>Relecteur de pull requests maintenu par la communauté, distinct de Qodo</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://getprbl.com">Prbl</a> · Web
+            <p>Scanner une application en ligne ou un dépôt pour trouver les failles fréquentes du code généré par IA. La GitHub Action commente les PR. Le correcteur Pro applique des corrections vérifiées</p>
+            <p class="access">Scan et GitHub Action gratuits. Offres payantes pour le correcteur et les dépôts privés. Python/JS/TS uniquement</p>
+          </li>
+          <li>
+            <a href="https://www.qodo.ai">Qodo</a>
+            <p>Moteur de revue de code par IA (anciennement CodiumAI)</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp">Semgrep MCP</a> · MCP
+            <p>Analyse de sécurité MCP via le CLI Semgrep maintenu</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/getsentry/sentry-mcp">Sentry</a> · MCP
+            <p>Inspecter les erreurs d&#x27;application et diagnostiquer les échecs</p>
+            <p class="access">Functional Source License. Source disponible. Vérifier les conditions de l&#x27;offre hébergée</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Déploiement et exécution</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/cloudflare/mcp-server-cloudflare">Cloudflare</a> · MCP
+            <p>Gérer le déploiement d&#x27;applications et les ressources cloud</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://github.com/e2b-dev/E2B">E2B</a>
+            <p>Sandbox cloud sécurisée pour agents IA de niveau entreprise</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+          <li>
+            <a href="https://publish.my/">Publish.my</a> · Web
+            <p>Publication de sites statiques pilotée par agents, avec activation par email</p>
+            <p class="access">Offre gratuite. Sites statiques uniquement. Activation par email</p>
+          </li>
+          <li>
+            <a href="https://github.com/getsentry/XcodeBuildMCP">XcodeBuildMCP</a> · MCP
+            <p>Outils CLI et MCP pour compiler, exécuter et déboguer des projets Apple</p>
+            <p class="access">Vérifier le prix</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Espaces de travail et usage des agents</h2>
+        <ul>
+          <li>
+            <a href="https://delta.dev/">Delta (Zed)</a> · Desktop
+            <p>Lancer des fils d&#x27;agents et relire leurs changements dans un espace de travail multijoueur qui relie conversation et historique du code. Compatible avec les dépôts Git existants</p>
+            <p class="access">Gratuit pendant la bêta publique. Offres payantes prévues. Coûts de modèle séparés</p>
+          </li>
+          <li>
+            <a href="https://github.com/MusicMaster4/Duckweed">Duckweed</a> · Desktop
+            <p>Exécuter agents de code, shells, diffs Git et sessions dans un espace de travail local multiplateforme</p>
+            <p class="access">Source disponible. Voir la licence. Coûts de modèle et de fournisseur séparés</p>
+          </li>
+          <li>
+            <a href="https://github.com/lanesket/llm.log">llm.log</a>
+            <p>Inspecter les coûts, tokens et traces de requêtes des modèles via un proxy local</p>
+            <p class="access">MIT. Coûts de modèle et de fournisseur séparés</p>
+          </li>
+          <li>
+            <a href="https://github.com/johannesjo/parallel-code">Parallel Code</a> · Desktop
+            <p>Exécuter des agents de code dans des worktrees Git isolés et relire leurs changements</p>
+            <p class="access">MIT. Coûts de modèle et de fournisseur séparés</p>
+          </li>
+          <li>
+            <a href="https://github.com/shep-ai/shep">Shep</a> · CLI
+            <p>Orchestrer des agents de code en parallèle dans des worktrees Git isolés, jusqu&#x27;au commit, au push, au suivi CI et aux brouillons de PR</p>
+            <p class="access">Client MIT. Abonnement d&#x27;agent ou coûts d&#x27;API séparés</p>
+          </li>
+          <li>
+            <a href="https://github.com/pungme/superagent-desktop">Superagent</a> · Desktop
+            <p>Utiliser Claude Code ou Codex dans un espace de travail macOS avec outils navigateur et iOS</p>
+            <p class="access">MIT. macOS Apple Silicon. Abonnement au modèle séparé</p>
+          </li>
+          <li>
+            <a href="https://github.com/aqua5230/usage">usage</a> · Desktop
+            <p>Voir les quotas des agents de code depuis la barre de menu macOS ou la zone de notification Windows</p>
+            <p class="access">AGPL-3.0. Coûts de modèle et de fournisseur séparés</p>
+          </li>
+          <li>
+            <a href="https://www.warp.dev/terminal">Warp Terminal</a>
+            <p>Utiliser un terminal orienté agents et inspecter les workflows de code</p>
+            <p class="access">Téléchargement du terminal. Vérifier le prix de l&#x27;usage IA</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Premier projet</h2>
+        <ul>
+          <li>
+            <a href="https://aibook.ren/categories/ai-coding">AI Book: AI Coding</a> · Guide
+            <p>Manuel en chinois sur les workflows d&#x27;agents de code, le choix des outils et les pratiques avec Cursor, Codex, Claude Code et Kiro</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://roboco.io/posts/vibe-coding-manual/">Vibe Coding Manual (Roboco)</a> · Guide
+            <p>Workflow en coréen et modèles de règles de projet. Exemples datés</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://zalt.me/guides/vibe-coding">Vibe Coding with Confidence (Mahmoud Zalt)</a> · Guide
+            <p>Manuel de développement avec chapitres d&#x27;introduction accessibles et contenu avancé payant</p>
+            <p class="access">Chapitres de base gratuits. Chapitres avancés payants. EN</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Workflows pratiques</h2>
+        <ul>
+          <li>
+            <a href="https://lucumr.pocoo.org/2025/6/12/agentic-coding/">Agentic Coding Recommendations (Armin Ronacher)</a> · Guide
+            <p>Workflows d&#x27;agents pratiques et conseils de tests. Point de vue d&#x27;un praticien, 2025</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://simonwillison.net/2025/Mar/11/using-llms-for-code/">Here&#x27;s how I use LLMs to help me write code (Simon Willison)</a> · Guide
+            <p>Pratiques itératives de code et de QA. Les exemples d&#x27;outils de 2025 sont historiques</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://cloudsecurityalliance.org/blog/2025/04/09/secure-vibe-coding-guide">Secure Vibe Coding Guide (CSA)</a> · Guide
+            <p>Checklist de sécurité sur les secrets, les autorisations, la validation et la revue</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>Concepts et recherche</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/coleam00/context-engineering-intro">Context Engineering Intro (coleam00)</a> · Guide
+            <p>Exemples de contexte de projet et d&#x27;instructions pour agents de code</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro">Documentation du Model Context Protocol</a> · Guide
+            <p>Introduction officielle actuelle à l&#x27;architecture et aux intégrations MCP</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2405.15793">SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering</a> · Paper
+            <p>Agent autonome qui corrige de vrais bugs avec une Agent-Computer Interface</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://arxiv.org/abs/2310.06770">SWE-bench: Can Language Models Resolve Real-World GitHub Issues?</a> · Paper
+            <p>Benchmark de référence pour évaluer les agents de code IA</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+          <li>
+            <a href="https://vdlc.roboco.io/">VDLC — Vibe-Driven Development Lifecycle (Roboco)</a> · Guide
+            <p>Cadre de cycle de vie qui traite l&#x27;intention et le contexte comme artefacts principaux. Six étapes avec validation humaine à l&#x27;approbation du plan, à la revue finale et au déploiement. Trilingue EN/KO/JA</p>
+            <p class="access">Lecture gratuite. Vérifier les conditions de réutilisation</p>
+          </li>
+        </ul>
+      </section>
+      <p>Pour aller plus loin : <a href="https://github.com/Scap-Mehdi/awesome-vibecoding/blob/HEAD/docs/verified-catalog.md">consulter le catalogue complémentaire de la source</a>.</p>
+      <nav aria-label="Navigation principale">
+        <a href="index.html">Retour à l’accueil</a>
+      </nav>
+    </main>
+  </body>
+</html>
